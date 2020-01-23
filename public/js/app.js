@@ -1960,9 +1960,24 @@ __webpack_require__.r(__webpack_exports__);
       type: Boolean
     }
   },
+<<<<<<< HEAD
   methods: {
     close: function close() {
       this.$emit("close");
+=======
+  watch: {
+    showing: function showing(value) {
+      if (value) {
+        return document.querySelector('body').classList.add('overflow-hidden');
+      }
+
+      document.querySelector('body').classList.remove('overflow-hidden');
+    }
+  },
+  methods: {
+    close: function close() {
+      this.$emit('close');
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
     }
   }
 });
@@ -2014,7 +2029,11 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
+<<<<<<< HEAD
 exports.push([module.i, ".fade-enter-active[data-v-08049d22],\n.fade-leave-active[data-v-08049d22] {\n  -webkit-transition: all 0.4s;\n  transition: all 0.4s;\n}\n.fade-enter[data-v-08049d22],\n.fade-leave-to[data-v-08049d22] {\n  opacity: 0;\n}\n#modal[data-v-08049d22] {\n  width: 1200px !important;\n  height: 1200px;\n}\n", ""]);
+=======
+exports.push([module.i, ".fade-enter-active[data-v-08049d22],\n.fade-leave-active[data-v-08049d22] {\n  -webkit-transition: all 0.4s;\n  transition: all 0.4s;\n}\n.fade-enter[data-v-08049d22],\n.fade-leave-to[data-v-08049d22] {\n  opacity: 0;\n}\n", ""]);
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
 
 // exports
 
@@ -33492,8 +33511,12 @@ var render = function() {
           "div",
           {
             staticClass:
+<<<<<<< HEAD
               "fixed inset-0 w-screen h-screen flex items-center justify-center bg-semi-75",
             attrs: { id: "modal" },
+=======
+              "fixed inset-0 w-full h-screen flex items-center justify-center bg-semi-75",
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
             on: {
               click: function($event) {
                 if ($event.target !== $event.currentTarget) {
@@ -33508,8 +33531,12 @@ var render = function() {
               "div",
               {
                 staticClass:
+<<<<<<< HEAD
                   "relative w-screen max-w-2xl bg-white shadow-lg rounded-lg p-8",
                 attrs: { id: "modal" }
+=======
+                  "w-full max-w-2xl bg-white shadow-lg rounded-lg p-8"
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
               },
               [
                 _c(
@@ -33525,7 +33552,11 @@ var render = function() {
                       }
                     }
                   },
+<<<<<<< HEAD
                   [_vm._v("×")]
+=======
+                  [_vm._v("\n                X\n        ")]
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
                 ),
                 _vm._v(" "),
                 _vm._t("default")
@@ -45774,6 +45805,11 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+<<<<<<< HEAD
+=======
+/* Aquí irán todos los componentes creados */
+
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
 Vue.component('card-modal', __webpack_require__(/*! ./components/CardModal.vue */ "./resources/js/components/CardModal.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to

@@ -22,6 +22,10 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('card-modal', require('./components/CardModal.vue').default);
 
+/* Aquí irán todos los componentes creados */
+
+Vue.component('card-modal', require('./components/CardModal.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -32,5 +36,9 @@ const app = new Vue({
     el: '#app',
     data: {
         exampleModalShowing: false,
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> 9145425a572dca15948495db9b013b500c7c1292
 });
