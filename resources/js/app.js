@@ -36,9 +36,5 @@ const app = new Vue({
     el: '#app',
     data: {
         exampleModalShowing: false,
-<<<<<<< HEAD
     },
-=======
-    }
->>>>>>> 9145425a572dca15948495db9b013b500c7c1292
 });
